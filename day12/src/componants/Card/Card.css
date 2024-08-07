@@ -1,0 +1,90 @@
+#maindiv{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 500px;
+    border-radius: 25px;
+    z-index: 1;
+}
+#topcardimg{
+    border-radius: 25px 25px 0 0 ;
+}
+#profile{
+    height: 150px;
+    width: 150px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+#bottomcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#details{
+    display:flex ;
+flex-direction: column;
+position: relative;
+bottom: 100px;
+align-items: center;
+height: 220px;
+}
+#name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#country{
+    font-size: 25px;
+    color: gray;
+    margin-top: 15px;
+    
+}
+.numname{
+    color: gray;
+}
+span{
+    color: rgb(153, 153, 153);
+}
+hr{
+    background-color: rgb(162, 162, 162);
+    width: 100%;
+    height: .5px;
+    border: none;
+    position: relative;
+    bottom: 35px;
+}
+.num{
+    row-gap: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 99%;
+    bottom: 30px;
+    height: 100px;
+    box-sizing:border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+@media screen and (max-width:600px) {
+ #maindiv{
+    left: 90px;
+    height: 50%;
+ } 
+ .num{
+    font-size: 20px;
+ }
+ #profile{
+    width: 100px;
+    height: 100px;
+ }
+ #details{
+    bottom: 60px;
+ }
+}
