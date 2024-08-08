@@ -1,0 +1,33 @@
+#topcomponant{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+#name{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+#state{
+    color: hsl(75, 94%, 57%);
+    font-size: 17px;
+    font-weight: bold;
+}
+#job{
+    padding-top: 20px;
+    font-size: 17px;
+    color: white;
+}

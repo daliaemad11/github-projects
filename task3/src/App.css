@@ -1,0 +1,19 @@
+@font-face {
+  font-family:'Inter' ;
+  src: url(./assets/assets/fonts/static/Inter-Regular.ttf);
+}
+main{
+  font-family: 'Inter';
+  height: 650px;
+  width: 400px;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;  
+}
+@media screen and (max-width:475px) {
+  main{
+    height: 700px;
+  }
+}
