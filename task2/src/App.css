@@ -1,0 +1,22 @@
+@font-face {
+  font-family:'JosefinSans' ;
+  src: url(./assets/font/static/JosefinSans-Light.ttf);
+  font-style: normal;
+}
+
+#maindiv{
+  font-family: 'JosefinSans';
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width:470px) {
+  
+  #maindiv{
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+}

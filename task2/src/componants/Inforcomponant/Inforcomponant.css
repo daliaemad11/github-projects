@@ -1,0 +1,106 @@
+#leftinfo{
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 50px 0 0 250px;
+}
+#logo{
+    margin-bottom: 150px;
+    height: 50px;
+    display: flex;
+    width: 100%;
+}
+#colorword{
+    display: block;
+    font-size: 70px;
+    color:hsl(0, 36%, 70%);
+
+}
+h1{
+    font-size: 70px;
+}
+#describtion{
+    color:hsl(0, 36%, 70%) ;
+    font-size: 25px;
+    width: 77%;
+    line-height: 1.6;
+}
+#inputtext{
+    height: 55px;
+    display: flex;
+    margin-top: 50px;
+}
+input{
+    height: 100%;
+    width: 70%;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+input:focus{
+    border: 1px solid  hsl(0, 93%, 68%);
+    outline: none;
+}
+button{
+    height: 100%;
+    width: 100px;
+    border-radius: 30px;
+    border: 0;
+    /* background-color: hsl(0, 36%, 70%); */
+    background-image: linear-gradient(to right, hsl(0, 80%, 86%),  hsl(0, 74%, 74%) );
+    position: relative;
+    right: 80px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px 1px hsla(0, 7%, 33%, 0.242);
+}
+@media screen and (max-width:470px) {
+    #leftinfo{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #logoimg{
+        width: 100px;
+        height: 40px;
+    }
+    #logo{
+        margin: 0;
+        position: relative;
+        width: 100%;
+        bottom: 325px;
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    h1{
+        
+        text-align: center;
+        font-size: 40px;
+    }
+    #colorword{
+        font-size: 40px;
+    }
+    #inputtext{
+        width: 100%;
+        margin: 0;
+        
+    }
+    input{
+        width: 100%;
+        position: relative;
+        left: 45px;
+    }
+    button{
+        right: 35px;
+    }
+    #describtion{
+        line-height: 1.4;
+        text-align: center;
+        width: 100%;
+    }
+    
+}
