@@ -2,9 +2,8 @@
     background-color: white;
     height: 500px;
     width: 500px;
-    position: relative;
-    left: 500px;
     border-radius: 25px;
+    
     z-index: 1;
 }
 #topcardimg{
@@ -72,11 +71,11 @@ hr{
     padding-right: 20px;
 
 }
-@media screen and (max-width:600px) {
- #maindiv{
-    left: 90px;
-    height: 50%;
- } 
+@media screen and (max-width:375px) {
+    #maindiv{
+        height: 450px;  
+        width: 300px; 
+    }
  .num{
     font-size: 20px;
  }

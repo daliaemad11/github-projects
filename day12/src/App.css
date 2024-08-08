@@ -1,10 +1,14 @@
 main{
-  background-color: hsl(185, 75%, 39%);
-  height: 100%;
+height: 100%;
+background-image: url(./assets/images/bg-pattern-top.svg) ,url(./assets/images/bg-pattern-bottom.svg);
+background-repeat: no-repeat;
+background-position-x:-111px,900px ;
+background-position-y:-500px,500px ;
 display: flex;
 justify-content: center;
 align-items: center;
-  width: 100%;
+text-align: center;
+width: 100%;
 }
 #cardimg{
   display: flex;
@@ -14,34 +18,17 @@ img{
   width: 100%;
   height: 30%;
 }
-#bottomimg{
-  position: relative;
-  left: 35%;
-  
-}
-#topimg{
-  position: relative;
-  right: 800px;
-  
-}
+
+
 @media screen and (max-width:600px) {
-  #bottomimg{
-    left: 0;
-    bottom: 450px;
-    width: 450px;
-    height: 450px;
-  }
+ 
   #cardimg{
    row-gap: 100px;
    width: 200px;
    height:10px;
   }
-  
-  #topimg{
-    bottom: 600px;
-    right: 0;
-    right: 400px;
-    width: 450px;
-    height: 450px;
+  main{
+    background-position-x:-800px,0px ;
+    background-position-y:-400px,500px ;
   }
-}
+  }
